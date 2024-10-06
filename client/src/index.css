@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Example styles for Navbar */
+.navbar {
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.navbar:hover {
+  transform: translateY(-3px); /* Subtle slide effect on hover */
+}
+
+/* Active Link Highlighting */
+.navbar a.active {
+  color: #fff; /* Active link color */
+  border-bottom: 2px solid #fff; /* Underline for active link */
+}
+
+
